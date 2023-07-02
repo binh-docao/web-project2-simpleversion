@@ -1,0 +1,216 @@
+/* Binh Do-Cao CSCE 315-904 Fall 2022 Project 1 Style Sheet #2 */
+
+html, body{
+    background-image: url("windowsWallpaper.png");
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow:hidden;
+}
+
+.siteFont{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body,p,h1,.siteFont{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(0, 0, 0, 0.252);
+}
+.navigation li{
+    float:none;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.navigation li a:hover{
+    background-color: rgba(188, 181, 181, 0.426);
+}
+.navigation{
+    float: none;
+    position: absolute;
+    top: 5%;
+    left: 2%;    
+}
+
+.topbar{
+    background-color:rgba(0, 0, 0, 0.252);
+    position:absolute;
+    padding:5px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    color:white;
+}
+
+.topbar .topbar-left a:link{
+    color:white;
+}
+
+.topbar-right{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+a:hover{
+    color:blue;
+}
+
+a:visited{
+    color:black;
+}
+
+.topbar-left{
+    color:white;
+    float:left;
+    bottom:10px;
+    right:20px;
+}
+
+.btns{
+    background-color:rgba(0, 0, 0, 0.252);
+    color:white;
+    border:none;
+    font-size:18px;
+    border-radius:12px;
+}
+
+.btns:hover{
+    background-color: rgba(188, 181, 181, 0.426);
+}
+
+.login{
+    position: absolute;
+    display:table;
+    margin-left:25px;
+    background-color:rgba(0, 0, 0, 0.252);
+    padding:10px;
+    width:25%;
+    font-size: 18px;
+    border-radius: 10px;
+    top:33%;
+    left:52%;
+    transform: translate(-40%,-40%);
+    word-wrap: break-word;
+    z-index:10;
+}
+
+.container img{
+    display:inline-block;;
+    border-radius: 8px;
+}
+
+.toptext{
+    position: absolute;
+    top: 9%;
+    left:50%;
+}
+  
+.center {
+    position: absolute;
+    display:block;
+    top: 40%;
+    left: 35%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: auto 20px;
+    z-index:10;
+}
+
+.project{
+    background-color: rgba(255, 255, 255, 0.757);
+    color:black;
+    display: table;
+    position:absolute;
+    border-radius: 6px;
+    padding: 2px;
+    width:50%;
+    top:15%;
+    left:25%;
+}
+
+.resume{
+    position:absolute;
+    top:15%;
+    left:6%;
+
+}
+
+.technicalskills{
+    background-color: rgba(255, 255, 255, 0.757);
+    color:black;
+    position:absolute;
+    border-radius: 6px;
+    padding:2px;
+    width:20%;
+    top:30%;
+    left:12%; 
+}
+
+.areaofinterest{
+    background-color: rgba(255, 255, 255, 0.757);
+    color:black;
+    position:absolute;
+    border-radius: 6px;
+    width:25%;
+    padding:2px;
+    top:30%;
+    right:5%; 
+}
+
+.project, .bl, .ul.a{
+    list-style-type: square;
+    text-align: left;
+}
+
+.service{
+    border-radius:8px;
+}
+
+.leftpic{
+    position:absolute;
+    top:15%;
+    left:10%;
+}
+
+.rightpic{
+    position:absolute;
+    top:15%;
+    left:72%;
+}
+
+.servicetext{
+    background-color: rgba(255, 255, 255, 0.757);
+    color:black;
+    display:inline-block;
+    border-radius: 6px;
+    position:absolute;
+    margin-top:20px;
+    width:40%;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.logo{
+    content:url("windows_logo.png");
+    width: 24px;
+    height:24px;
+}
